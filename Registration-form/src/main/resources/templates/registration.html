@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Registration Successful</h1>
+	
+	<p th:text="'Name : ' + ${student.stname}"> </p>
+	<p th:text="'Course : ' + ${student.course}"> </p>
+	<p th:text="'Fee : ' + ${student.fee}"> </p>
+	
+</body>
+</html>
